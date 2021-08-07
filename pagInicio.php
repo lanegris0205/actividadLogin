@@ -1,9 +1,9 @@
 <?php
-/*session_start();
+session_start();
 
 if (!$_SESSION) {
-    header("location: http://localhost/clases_php/atividadclase/loginpoo.php");
-}*/
+    header("location: http://localhost\ActividadLogin\login.php");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
