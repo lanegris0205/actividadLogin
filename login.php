@@ -1,5 +1,9 @@
 <?php
+session_start();
 
+if ($_SESSION) {
+    header("Location:http://localhost\ActividadLogin\pagInicio.php");
+  }
 $msg=$_REQUEST['msg'] ?? '';
 ?>
 <!doctype html>

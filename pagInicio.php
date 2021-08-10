@@ -14,8 +14,8 @@ if (!$_SESSION) {
     <title>Inicio</title>
 </head>
 <body>
-    <h1>Seccion iniciada, Hola 
-    <?php echo $_SESSION['email'];?>
+    <h1>Seccion iniciada, Hola
+    <?php echo $_SESSION['nombre'];?>
     </h1>
     <!-- BOTON DENTRO DE UN FORM PARA CERRAR SESION https://www.w3schools.com/php/php_sessions.asp-->
     <form class="form-signin" action="logout.php" method="POST">

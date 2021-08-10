@@ -27,6 +27,7 @@ class Usuario
         //echo($usuario['']);
         if ($usuario) {
             $_SESSION['email'] = $usuario["email"];
+            $_SESSION['nombre'] = $usuario["nombre"];
             header("location:http://localhost\ActividadLogin\pagInicio.php");
         } else {
             $msg = "Email o contraseña no validos";
